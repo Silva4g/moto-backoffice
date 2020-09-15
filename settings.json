@@ -1,0 +1,75 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+
+  // Default (format when you paste)
+  "editor.formatOnPaste": true,
+  // Default (format when you save)
+  "editor.formatOnSave": true,
+
+  "explorer.compactFolders": false,
+
+  "workbench.editor.labelFormat": "short",
+
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+
+  "editor.parameterHints.enabled": false,
+
+  "explorer.confirmDragAndDrop": false,
+
+  "editor.semanticHighlighting.enabled": false,
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "explorer.confirmDelete": false,
+  "files.autoSave": "off",
+  "liveshare.allowGuestDebugControl": true,
+  "liveshare.allowGuestTaskControl": true,
+  "liveshare.diagnosticLogging": true
+}
