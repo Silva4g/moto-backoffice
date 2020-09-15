@@ -1,0 +1,37 @@
+.content-proposal {
+  display: flex;
+  flex: 1;
+}
+
+.container-proposal {
+  background: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 1px 4px #00000012;
+
+  & + div {
+    margin-left: 24px;
+  }
+}
+
+.options-proposal {
+  width: 100%;
+  height: 7%;
+  border-bottom: 1px solid #edeef1;
+  display: flex;
+
+  > a {
+    flex: 1;
+    color: #7a8189;
+    transition: 0.5s color ease;
+    font-weight: 600;
+    border: none;
+    background: none;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

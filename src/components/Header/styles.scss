@@ -1,0 +1,11 @@
+.head {
+  grid-area: b;
+  background: #fff;
+  display: flex;
+  align-items: center;
+
+  > svg {
+    cursor: pointer;
+    margin: 0 0px 0 20px;
+  }
+}

@@ -1,0 +1,67 @@
+.chats {
+  width: 100%;
+  height: 13%;
+  border-bottom: 1px solid #edeef1;
+  padding: 23px 25px;
+  transition: 1s all ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pick {
+  flex: 0.11;
+  height: 6.5vh;
+  border-radius: 50%;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.read {
+  flex: 1;
+  margin-left: 6px;
+  height: 100%;
+  display: flex;
+  margin-left: 18px;
+  flex-direction: column;
+
+  > p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  > span {
+    font-size: 13px;
+    color: #51606d;
+    font-weight: 500;
+  }
+}
+
+.complements {
+  flex: 0.1;
+  height: 100%;
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  > span {
+    color: #8d97a5;
+    font-size: 11px;
+  }
+}
+
+.notification {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #e62d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

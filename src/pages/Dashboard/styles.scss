@@ -1,0 +1,109 @@
+.menuDashboard {
+  flex: 1;
+  display: flex;
+  margin: 30px 30px 10px 30px;
+  align-content: space-between;
+}
+
+.option {
+  flex: 1;
+  height: 200px;
+  background: #fff;
+  color: black;
+  border-radius: 10px;
+  padding: 30px 10px 30px 25px;
+  box-shadow: 5px 5px 3em #00000015;
+
+  & + div {
+    margin-left: 20px;
+  }
+
+  > div {
+    align-items: center;
+    justify-content: initial;
+    display: flex;
+    > div {
+      > p {
+        color: #ababab;
+        font-size: 12px;
+      }
+    }
+  }
+
+  > svg {
+    float: right;
+    margin-bottom: -10%;
+  }
+}
+
+.span {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: initial;
+
+  > p {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #eef8f4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profille {
+  margin: 10px 30px 10px 30px;
+  display: flex;
+  height: 250px;
+  align-content: space-between;
+}
+
+.perfil {
+  background: #fff;
+  display: flex;
+  flex: 0.3;
+  border-radius: 10px;
+  flex-direction: column;
+  margin-right: 50px;
+  box-shadow: 5px 5px 3em #00000015;
+  align-items: center;
+  justify-content: center;
+
+  > div {
+    padding: 10px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: #ccc;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  > p {
+    color: black;
+    font-weight: 500;
+  }
+}
+
+.banner {
+  background: #ccc;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 5px 5px 3em #00000015;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
