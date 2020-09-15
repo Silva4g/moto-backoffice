@@ -5,7 +5,8 @@
   flex-direction: column;
   height: 100%;
   margin: -40px;
-  border-top: 2px solid #c6c6c6;
+  border-top: 1px solid #c6c6c6;
+  overflow: auto;
 }
 
 .header {
@@ -55,7 +56,6 @@
       margin-right: 7px;
       width: 18px;
       height: 18px;
-      border: #00f;
     }
   }
 
@@ -65,7 +65,7 @@
 }
 
 .table {
-  margin: 0 49px;
+  margin: 0 29px 0 32px;
   flex: 1;
   border-spacing: 0;
   thead {
@@ -79,18 +79,138 @@
   }
   tbody {
     background-color: #fff;
+    tr {
+      &:hover {
+        background-color: #f8f8f8;
+      }
+      td {
+        border-bottom: 1px solid #D4D4D4;
+      }
+    }
   }
 }
 
-.flexcolumn-td {
+.indexmoto {
+  display: flex;
+  align-items: center;
+  padding: 16px 0px 26px 10px;
+  max-width: 400px;
+
+  input {
+    margin-right: 7px;
+    width: 27px;
+    height: 27px;
+  }
+  
+  > div {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D4D4D4;
+    height: 119px;
+    
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      width: fit-content;
+      align-items: center;
+    }
+  }
+}
+
+.informations {
+  font-size: 15px;
+  color: #7A8189;
+  margin: 9px 13px;
+  
+  &:first-child {
+    display: flex;
+    font-weight: 500;
+  }
+
+  > p {
+    font-weight: bold;
+    color: #0A0A0A;
+  }
+
+}
+
+.textbackground {
+  background-color:#EFEFEF;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.price {
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #D4D4D4;
+  padding: 0 32px;
+}
+
+.engagement {
+  display: flex;
+  padding: 0 20px 0 16px;
+  height: 119px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #D4D4D4;
+
+  > div {
+    font-size: 16px;
+    margin-left: 12px;
+    width: min-content;
+
+    &:first-child {
+      font-size: 12px;
+      color: #7A8189;
+      margin-left: 0px;
+    }
+  }
+}
+
+.bestoffert {
   display: flex;
   flex-direction: column;
-
+  align-items: flex-start;
+  justify-content: center;
+  height: 119px;
+  padding: 0 15px;
+  border-right: 1px solid #D4D4D4;
+  
   > span {
-    margin-bottom: 12px;
+    width: max-content;
+    font-size: 13px;
+    color: #7A8189;
 
-    &:last-child {
-      margin-bottom: 0;
+    &:first-child {
+      color: #1B6BC7;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  padding: 0 0 0 20px;
+  button {
+    padding: 11px;
+    background: none;
+    font-size: 13px;
+    border: none;
+    color: #7A8189;
+    border-radius: 4px;
+    display: flex;
+
+    &:first-child {
+      color: #0A0A0A;
+      border: 1px solid #0A0A0A;
+    }
+
+    svg {
+      margin-right: 5px;
     }
   }
 }
