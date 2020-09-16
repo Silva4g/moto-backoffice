@@ -23,7 +23,7 @@ const Menu: React.FC = () => {
 
   return (
     <div className="container">
-      <img src='https://lojista.moto.com.br/static/media/logo.ee6b8bd7.png' alt='MOTO.com.br' style={{ width: "80%", paddingTop: 10 }} />
+      <img src='https://lojista.moto.com.br/static/media/logo.ee6b8bd7.png' alt='MOTO.com.br' style={{ width: 120, paddingTop: 10 }} />
       <div style={{ borderBottom: '1px solid #a6a9b8' }}>
         <button type="button">
           <BiDollarCircle size={24} />
