@@ -19,6 +19,7 @@
   > div {
     display: flex;
     align-items: center;
+
     > span {
       font-size: 12px;
       color: #7a8189;
@@ -48,10 +49,12 @@
   margin-top: 17px;
   font-size: 14px;
   color: #7d858c;
+
   > div {
     display: flex;
     align-items: center;
     justify-items: center;
+
     input {
       margin-right: 7px;
       width: 18px;
@@ -68,8 +71,10 @@
   margin: 0 29px 0 32px;
   flex: 1;
   border-spacing: 0;
+
   thead {
     background-color: #3a4550;
+
     td {
       border: none;
       padding: 20px 25px;
@@ -79,10 +84,12 @@
   }
   tbody {
     background-color: #fff;
+
     tr {
       &:hover {
         background-color: #f8f8f8;
       }
+
       td {
         border-bottom: 1px solid #D4D4D4;
       }
@@ -195,6 +202,7 @@
 .buttons {
   display: flex;
   padding: 0 0 0 20px;
+
   button {
     padding: 11px;
     background: none;

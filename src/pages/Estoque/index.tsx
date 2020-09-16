@@ -63,7 +63,7 @@ const Estoque: React.FC = () => {
               <div className="indexmoto">
                 <input type="checkbox" name="" id="" />
                 <img src={Moto} width={100} alt="" />
-                <div>
+                <div style={{width: "100%"}}>
                   <p className="informations">
                     <p>KAWASAKI ER 5</p> - 2013/2014
                   </p>
