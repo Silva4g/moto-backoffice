@@ -5,6 +5,7 @@ import './styles.scss';
 
 import { ImPencil } from 'react-icons/im';
 import { FaTrashAlt } from 'react-icons/fa';
+import { FiLink2 } from 'react-icons/fi';
 
 import { GoSearch } from 'react-icons/go';
 
@@ -38,7 +39,14 @@ const Estoque: React.FC = () => {
           <input type="checkbox" name="" id="" />
           <span>Selecionar todos</span>
         </div>
-        <span>Trocar Prioridade &gt;</span>
+        <span>
+          <FaTrashAlt size={16} />
+          excluir
+        </span>
+        <span>
+          <FiLink2 size={16} />
+          ativar anúncio
+        </span>
       </div>
       <table className="table">
         <thead>
