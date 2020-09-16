@@ -10,10 +10,10 @@
 }
 
 .header {
-  background: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-end;
+  background: #ffffff;
   padding: 2.6% 20%;
 
   > div {
