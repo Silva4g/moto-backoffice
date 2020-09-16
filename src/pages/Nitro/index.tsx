@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.scss';
+import { Whatshot, StarTwoTone } from '@material-ui/icons';
 
 const Nitro: React.FC = () => 
     <>
@@ -7,23 +8,26 @@ const Nitro: React.FC = () =>
             <div className='red'>
                 <div className='conteudo'>
                     <div>
-                        <div><span>Sua Loja</span></div>
+                        <div><StarTwoTone /><span>Sua Loja</span></div>
                         <div className='divisor' />
-                        <div><span>Nitro</span></div>
+                        <div><Whatshot /><span>Nitro</span></div>
                     </div>
-                    <div><span>15 dias</span></div>
+                    <div><span><strong>15 dias</strong> para renovação</span></div>
                     <button>Ativar Nitro</button>
                 </div>
             </div>
             <div className='green' style={{ alignItems: 'flex-end', justifyContent: 'flex-start' }}>
                 <div className='conteudo'>
+                    <h3 style={{ textAlign: 'left' }}>Visualizações da Loja</h3>
                     <h1>Verde</h1>
                 </div>
             </div>
             <div className='blue'>
                 <div className='conteudo'>
+                    <h3 style={{ textAlign: 'left' }}>Extrato de Nitros</h3>
+                    <strong>Sistema de Busca</strong>
                     <table>
-                        <thead>
+                        <thead style={{ backgroundColor: '#c7c7c7' }}>
                             <tr>
                                 <td>Data</td>
                                 <td>Hora</td>
@@ -62,6 +66,7 @@ const Nitro: React.FC = () =>
             </div>
             <div className='yellow'>
                 <div className='conteudo'>
+                    <h3 style={{ textAlign: 'left' }}>Top Ofertas</h3>
                     <h1>Amarelo</h1>
                 </div>
             </div>
