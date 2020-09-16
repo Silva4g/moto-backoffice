@@ -1,17 +1,21 @@
-h1 {
-    color: #000000;
-}
-
 .grid {
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 2fr 3fr;
     flex-grow: 1;
+    color: #000000;
 
     > div {
-        margin: 20px;
-        border-radius: 4px;
         box-shadow: 0 0 10px #00000045;
+        padding: 30px;
+        margin: 20px;
+    }
+    
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
     }
 
     .red {
@@ -28,5 +32,40 @@ h1 {
 
     .yellow {
         background-color: #FFFF00;
+    }
+
+    .conteudo {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #FFFFFF;
+        // padding: 30px;
+        // margin: 30px;
+        border-radius: 4px;
+        box-shadow: none;
+        height: 100%;
+        width: 100%;
+
+        .divisor {
+            background-color: #000000;
+            width: 1px;
+            height: 100%;
+        }
+
+        > div {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 40%;
+
+            &:first-child {
+                grid-template-columns: 9fr 1fr 9fr;
+            }
+        }
+
+        > table {
+            width: 100%;
+        }
     }
 }
