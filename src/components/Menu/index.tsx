@@ -15,6 +15,12 @@ import { GoMegaphone, GoGear } from 'react-icons/go';
 import './styles.scss';
 
 const Menu: React.FC = () => {
+  // const list = ()
+  // let list = 'list';
+  // if (this.props.isActive) {
+  //   list += ' clickbutton';
+  // }
+
   return (
     <div className="container">
       <h1>Logo</h1>

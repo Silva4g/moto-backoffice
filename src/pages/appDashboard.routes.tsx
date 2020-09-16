@@ -29,7 +29,7 @@ const appDashboard: RouteProps[] = [
     exact: true,
   },
   {
-    path: '/relatorios',
+    path: '/relatorio',
     component: Relatorios,
     exact: true,
   },

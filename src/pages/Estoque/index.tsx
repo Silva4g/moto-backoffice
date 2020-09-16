@@ -6,8 +6,8 @@ import './styles.scss';
 import { ImPencil } from 'react-icons/im';
 import { FaTrashAlt } from 'react-icons/fa';
 import { FiLink2 } from 'react-icons/fi';
-
 import { GoSearch } from 'react-icons/go';
+import LinkOffIcon from '@material-ui/icons/LinkOff';
 
 const Estoque: React.FC = () => {
   return (
@@ -60,10 +60,10 @@ const Estoque: React.FC = () => {
         <tbody>
           <tr>
             <td>
-              <div className="indexmoto">
+              <div className="indexmoto2">
                 <input type="checkbox" name="" id="" />
                 <img src={Moto} width={100} alt="" />
-                <div style={{width: "100%"}}>
+                <div style={{ width: '100%' }}>
                   <p className="informations">
                     <p>KAWASAKI ER 5</p> - 2013/2014
                   </p>
@@ -81,13 +81,104 @@ const Estoque: React.FC = () => {
               </div>
             </td>
             <td>
-              <div className="bestoffert">
+              <div className="bestoffert2">
                 <span>Publicado</span>
-                <span>desativar anúncio</span>
+                <span>
+                  <LinkOffIcon fontSize="small" />
+                  desativar anúncio
+                </span>
               </div>
             </td>
             <td>
-              <div className="buttons">
+              <div className="buttons2">
+                <button type="submit">
+                  <ImPencil size={14} />
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14} />
+                  excluir
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="indexmoto2">
+                <input type="checkbox" name="" id="" />
+                <img src={Moto} width={100} alt="" />
+                <div style={{ width: '100%' }}>
+                  <p className="informations">
+                    <p>KAWASAKI ER 5</p> - 2013/2014
+                  </p>
+                  <div>
+                    <span className="informations textbackground">ABC-123</span>
+                    <span className="informations">1000km</span>
+                    <span className="informations">Azul</span>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="price">
+                <p>R$40.000,00</p>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert2">
+                <span>Publicado</span>
+                <span>
+                  <LinkOffIcon fontSize="small" />
+                  desativar anúncio
+                </span>
+              </div>
+            </td>
+            <td>
+              <div className="buttons2">
+                <button type="submit">
+                  <ImPencil size={14} />
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14} />
+                  excluir
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="indexmoto2">
+                <input type="checkbox" name="" id="" />
+                <img src={Moto} width={100} alt="" />
+                <div style={{ width: '100%' }}>
+                  <p className="informations">
+                    <p>KAWASAKI ER 5</p> - 2013/2014
+                  </p>
+                  <div>
+                    <span className="informations textbackground">ABC-123</span>
+                    <span className="informations">1000km</span>
+                    <span className="informations">Azul</span>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="price">
+                <p>R$40.000,00</p>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert2">
+                <span>Publicado</span>
+                <span>
+                  <LinkOffIcon fontSize="small" />
+                  desativar anúncio
+                </span>
+              </div>
+            </td>
+            <td>
+              <div className="buttons2">
                 <button type="submit">
                   <ImPencil size={14} />
                   editar
