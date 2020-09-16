@@ -21,8 +21,12 @@
 
 .header-report {
     display: flex;
-    border-right: 1px solid #7a8189;
-    padding: 0 20px 0 20px;
+    border-right: 1px solid #d4d4d4;
+    padding: 0 60px 0 60px;
+    height: 60px;
+    &:first-child {
+        padding-left: 0;
+    }
     &:last-child {
         border: none;
     }
@@ -35,14 +39,17 @@
         font-size: 24px;
         color: #000000;
     }
+    >input {
+        margin-right: 14px;
+    }
 }
 
 .header2 {
     background: #ffffff;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    padding: 2.6% 7%;
+    padding: 2.6% 2%;
     margin-bottom: 30px;
     >div {
         display: flex;
