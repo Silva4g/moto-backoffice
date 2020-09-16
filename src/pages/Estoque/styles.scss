@@ -1,15 +1,14 @@
 .selectTable {
-  span {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    svg {
-      margin-right: 7px;
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        svg {
+            margin-right: 7px;
+        }
     }
-  }
 }
 
 .indexmoto {
-  > div {
-  }
+    >div {}
 }
