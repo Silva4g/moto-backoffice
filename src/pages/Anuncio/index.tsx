@@ -77,6 +77,286 @@ const Anuncio: React.FC = () => {
             </td>
             <td>
               <div className="engagement">
+<<<<<<< HEAD
+                <div>Vizualizações Propostas</div>
+                <div>753 10</div>
+=======
+                <div>
+                  Vizualizações
+                  Propostas
+                </div>
+                <div>
+                  753
+                  10
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>R$39.000,00</span>
+                <span>Definir Top Oferta &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>Super Destaque</span>
+                <span>Trocar Prioridade &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="buttons">
+                <button type="submit">
+                  <ImPencil size={14}/>
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14}/>
+                  excluir
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="indexmoto">
+                <input type="checkbox" name="" id="" />
+                <img src={Moto} width={100} alt="" />
+                <div>
+                  <p className="informations">
+                    <p>KAWASAKI ER 5</p> - 2013/2014
+                  </p>
+                  <div>
+                    <span className="informations textbackground">ABC-123</span>
+                    <span className="informations">1000km</span>
+                    <span className="informations">Azul</span>
+                    <span className="informations">Criado em 12/08/2020</span>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="price">
+                <p>R$40.000,00</p>
+              </div>
+            </td>
+            <td>
+              <div className="engagement">
+                <div>
+                  Vizualizações
+                  Propostas
+                </div>
+                <div>
+                  753
+                  10
+                </div>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>R$39.000,00</span>
+                <span>Definir Top Oferta &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>Super Destaque</span>
+                <span>Trocar Prioridade &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="buttons">
+                <button type="submit">
+<<<<<<< HEAD
+                  <ImPencil size={14} />
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14} />
+=======
+                  <ImPencil size={14}/>
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14}/>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
+                  excluir
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="indexmoto">
+                <input type="checkbox" name="" id="" />
+                <img src={Moto} width={100} alt="" />
+                <div>
+                  <p className="informations">
+                    <p>KAWASAKI ER 5</p> - 2013/2014
+                  </p>
+                  <div>
+                    <span className="informations textbackground">ABC-123</span>
+                    <span className="informations">1000km</span>
+                    <span className="informations">Azul</span>
+                    <span className="informations">Criado em 12/08/2020</span>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="price">
+                <p>R$40.000,00</p>
+              </div>
+            </td>
+            <td>
+              <div className="engagement">
+<<<<<<< HEAD
+                <div>Vizualizações Propostas</div>
+                <div>753 10</div>
+=======
+                <div>
+                  Vizualizações
+                  Propostas
+                </div>
+                <div>
+                  753
+                  10
+                </div>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>R$39.000,00</span>
+                <span>Definir Top Oferta &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>Super Destaque</span>
+                <span>Trocar Prioridade &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="buttons">
+                <button type="submit">
+<<<<<<< HEAD
+                  <ImPencil size={14} />
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14} />
+=======
+                  <ImPencil size={14}/>
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14}/>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
+                  excluir
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="indexmoto">
+                <input type="checkbox" name="" id="" />
+                <img src={Moto} width={100} alt="" />
+                <div>
+                  <p className="informations">
+                    <p>KAWASAKI ER 5</p> - 2013/2014
+                  </p>
+                  <div>
+                    <span className="informations textbackground">ABC-123</span>
+                    <span className="informations">1000km</span>
+                    <span className="informations">Azul</span>
+                    <span className="informations">Criado em 12/08/2020</span>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="price">
+                <p>R$40.000,00</p>
+              </div>
+            </td>
+            <td>
+              <div className="engagement">
+<<<<<<< HEAD
+                <div>Vizualizações Propostas</div>
+                <div>753 10</div>
+=======
+                <div>
+                  Vizualizações
+                  Propostas
+                </div>
+                <div>
+                  753
+                  10
+                </div>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>R$39.000,00</span>
+                <span>Definir Top Oferta &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="bestoffert">
+                <span>Super Destaque</span>
+                <span>Trocar Prioridade &gt;</span>
+              </div>
+            </td>
+            <td>
+              <div className="buttons">
+                <button type="submit">
+<<<<<<< HEAD
+                  <ImPencil size={14} />
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14} />
+=======
+                  <ImPencil size={14}/>
+                  editar
+                </button>
+                <button type="submit">
+                  <FaTrashAlt size={14}/>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
+                  excluir
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div className="indexmoto">
+                <input type="checkbox" name="" id="" />
+                <img src={Moto} width={100} alt="" />
+                <div>
+                  <p className="informations">
+                    <p>KAWASAKI ER 5</p> - 2013/2014
+                  </p>
+                  <div>
+                    <span className="informations textbackground">ABC-123</span>
+                    <span className="informations">1000km</span>
+                    <span className="informations">Azul</span>
+                    <span className="informations">Criado em 12/08/2020</span>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className="price">
+                <p>R$40.000,00</p>
+              </div>
+            </td>
+            <td>
+              <div className="engagement">
+<<<<<<< HEAD
                 <div>Vizualizações Propostas</div>
                 <div>753 10</div>
               </div>
@@ -133,114 +413,16 @@ const Anuncio: React.FC = () => {
               <div className="engagement">
                 <div>Vizualizações Propostas</div>
                 <div>753 10</div>
-              </div>
-            </td>
-            <td>
-              <div className="bestoffert">
-                <span>R$39.000,00</span>
-                <span>Definir Top Oferta &gt;</span>
-              </div>
-            </td>
-            <td>
-              <div className="bestoffert">
-                <span>Super Destaque</span>
-                <span>Trocar Prioridade &gt;</span>
-              </div>
-            </td>
-            <td>
-              <div className="buttons">
-                <button type="submit">
-                  <ImPencil size={14} />
-                  editar
-                </button>
-                <button type="submit">
-                  <FaTrashAlt size={14} />
-                  excluir
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="indexmoto">
-                <input type="checkbox" name="" id="" />
-                <img src={Moto} width={100} alt="" />
+=======
                 <div>
-                  <p className="informations">
-                    <p>KAWASAKI ER 5</p> - 2013/2014
-                  </p>
-                  <div>
-                    <span className="informations textbackground">ABC-123</span>
-                    <span className="informations">1000km</span>
-                    <span className="informations">Azul</span>
-                    <span className="informations">Criado em 12/08/2020</span>
-                  </div>
+                  Vizualizações
+                  Propostas
                 </div>
-              </div>
-            </td>
-            <td>
-              <div className="price">
-                <p>R$40.000,00</p>
-              </div>
-            </td>
-            <td>
-              <div className="engagement">
-                <div>Vizualizações Propostas</div>
-                <div>753 10</div>
-              </div>
-            </td>
-            <td>
-              <div className="bestoffert">
-                <span>R$39.000,00</span>
-                <span>Definir Top Oferta &gt;</span>
-              </div>
-            </td>
-            <td>
-              <div className="bestoffert">
-                <span>Super Destaque</span>
-                <span>Trocar Prioridade &gt;</span>
-              </div>
-            </td>
-            <td>
-              <div className="buttons">
-                <button type="submit">
-                  <ImPencil size={14} />
-                  editar
-                </button>
-                <button type="submit">
-                  <FaTrashAlt size={14} />
-                  excluir
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="indexmoto">
-                <input type="checkbox" name="" id="" />
-                <img src={Moto} width={100} alt="" />
                 <div>
-                  <p className="informations">
-                    <p>KAWASAKI ER 5</p> - 2013/2014
-                  </p>
-                  <div>
-                    <span className="informations textbackground">ABC-123</span>
-                    <span className="informations">1000km</span>
-                    <span className="informations">Azul</span>
-                    <span className="informations">Criado em 12/08/2020</span>
-                  </div>
+                  753
+                  10
                 </div>
-              </div>
-            </td>
-            <td>
-              <div className="price">
-                <p>R$40.000,00</p>
-              </div>
-            </td>
-            <td>
-              <div className="engagement">
-                <div>Vizualizações Propostas</div>
-                <div>753 10</div>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
               </div>
             </td>
             <td>
@@ -258,65 +440,19 @@ const Anuncio: React.FC = () => {
             <td>
               <div className="buttons">
                 <button type="submit">
+<<<<<<< HEAD
                   <ImPencil size={14} />
                   editar
                 </button>
                 <button type="submit">
                   <FaTrashAlt size={14} />
-                  excluir
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="indexmoto">
-                <input type="checkbox" name="" id="" />
-                <img src={Moto} width={100} alt="" />
-                <div>
-                  <p className="informations">
-                    <p>KAWASAKI ER 5</p> - 2013/2014
-                  </p>
-                  <div>
-                    <span className="informations textbackground">ABC-123</span>
-                    <span className="informations">1000km</span>
-                    <span className="informations">Azul</span>
-                    <span className="informations">Criado em 12/08/2020</span>
-                  </div>
-                </div>
-              </div>
-            </td>
-            <td>
-              <div className="price">
-                <p>R$40.000,00</p>
-              </div>
-            </td>
-            <td>
-              <div className="engagement">
-                <div>Vizualizações Propostas</div>
-                <div>753 10</div>
-              </div>
-            </td>
-            <td>
-              <div className="bestoffert">
-                <span>R$39.000,00</span>
-                <span>Definir Top Oferta &gt;</span>
-              </div>
-            </td>
-            <td>
-              <div className="bestoffert">
-                <span>Super Destaque</span>
-                <span>Trocar Prioridade &gt;</span>
-              </div>
-            </td>
-            <td>
-              <div className="buttons">
-                <button type="submit">
-                  <ImPencil size={14} />
+=======
+                  <ImPencil size={14}/>
                   editar
                 </button>
                 <button type="submit">
-                  <FaTrashAlt size={14} />
+                  <FaTrashAlt size={14}/>
+>>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
                   excluir
                 </button>
               </div>

@@ -15,10 +15,16 @@ import { GoMegaphone, GoGear } from 'react-icons/go';
 import './styles.scss';
 
 const Menu: React.FC = () => {
+  // const list = ()
+  // let list = 'list';
+  // if (this.props.isActive) {
+  //   list += ' clickbutton';
+  // }
+
   return (
     <div className="container">
-      <h1>Logo</h1>
-      <div style={{ borderBottom: '1px solid #a6a9b8' }}>
+      <img src='https://lojista.moto.com.br/static/media/logo.ee6b8bd7.png' alt='MOTO.com.br' style={{ width: 120, padding: "20px 0" }} />
+      <div style={{ borderBottom: '1px solid #a6a9b8', borderTop: '1px solid #a6a9b8' }}>
         <button type="button">
           <BiDollarCircle size={24} />
           <span>Anunciar</span>

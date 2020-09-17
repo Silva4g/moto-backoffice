@@ -1,0 +1,63 @@
+.price2 {
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #d4d4d4;
+    padding: 0 16px;
+    min-width: 100px;
+    p {
+        font-size: 14px;
+    }
+}
+
+.indexmoto2 {
+    >p {
+        font-weight: 600;
+        color: #1b6bc7;
+        margin: 0 15px;
+    }
+}
+
+.header-report {
+    display: flex;
+    border-right: 1px solid #d4d4d4;
+    padding: 0 60px 0 60px;
+    height: 60px;
+    &:first-child {
+        padding-left: 0;
+    }
+    &:last-child {
+        border: none;
+    }
+    >span {
+        font-size: 12px;
+        color: #7a8189;
+    }
+    >p {
+        font-weight: 500;
+        font-size: 24px;
+        color: #000000;
+    }
+    >input {
+        margin-right: 14px;
+    }
+}
+
+.header2 {
+    background: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.6% 2%;
+    margin-bottom: 30px;
+    >div {
+        display: flex;
+        align-items: center;
+        >span {
+            font-size: 12px;
+            color: #7a8189;
+            margin-right: 10px;
+        }
+    }
+}
