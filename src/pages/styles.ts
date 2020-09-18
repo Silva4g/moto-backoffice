@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
@@ -7,9 +7,20 @@ export const Container = styled.div`
   grid-template-columns: 15% 85%;
   grid-template-rows: 7% 93%;
   grid-template-areas:
-    "a b"
-    "a c";
+    'a b'
+    'a c';
 `;
+
+// const appearFromRight = keyframes`
+// from {
+//   opacity: 0;
+//   transform: translateX(50px);
+// }
+// to {
+//   opacity: 1;
+//   transform: translateX(0px);
+// }
+// `;
 
 export const Content = styled.div`
   flex: 1;
@@ -17,4 +28,5 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin: 40px;
+  /* animation: {appearFromRight} 1s; */
 `;

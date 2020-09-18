@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.scss';
 
@@ -21,74 +22,82 @@ const Dashboard: React.FC = () => {
         </div>
       </div>
       <div className="menuDashboard">
-        <div className="option">
+        <Link to="/dashboard/proposta" className="option">
           <div>
             <div className="icon">
-              <BiCommentDetail color="#3e9d60" size={30} />
+              <div>
+                <BiCommentDetail color="#3e9d60" size={26} />
+              </div>
+              <p>Propostas</p>
             </div>
-            <p>Propostas</p>
           </div>
           <div>
             <div>
               <div className="span">
                 <p>15</p> Propostas
+                <FiChevronRight />
               </div>
-              <p>recebidas essa hoje</p>
+              <span>recebidas essa hoje</span>
             </div>
           </div>
-          <FiChevronRight />
-        </div>
-        <div className="option">
+        </Link>
+        <Link to="/dashboard/anuncio" className="option">
           <div>
             <div className="icon">
-              <FaBullhorn color="#3e9d60" size={30} />
+              <div>
+                <FaBullhorn color="#3e9d60" size={26} />
+              </div>
+              <p>Anúncios</p>
             </div>
-            <p>Anúncios</p>
           </div>
           <div>
             <div>
               <div className="span">
                 <p>26</p> Motos
+                <FiChevronRight />
               </div>
-              <p>recebidas essa hoje</p>
+              <span>recebidas essa hoje</span>
             </div>
           </div>
-          <FiChevronRight />
-        </div>
-        <div className="option">
+        </Link>
+        <Link to="/dashboard/estoque" className="option">
           <div>
             <div className="icon">
-              <FaMotorcycle color="#3e9d60" size={30} />
+              <div>
+                <FaMotorcycle color="#3e9d60" size={26} />
+              </div>
+              <p>Estoque</p>
             </div>
-            <p>Estoque</p>
           </div>
           <div>
             <div>
               <div className="span">
                 <p>30</p> Motos
+                <FiChevronRight />
               </div>
-              <p>em seu estoque</p>
+              <span>em seu estoque</span>
             </div>
           </div>
-          <FiChevronRight />
-        </div>
-        <div className="option">
+        </Link>
+        <Link to="/dashboard/relatorio" className="option">
           <div>
             <div className="icon">
-              <BiTrendingUp color="#3e9d60" size={30} />
+              <div>
+                <BiTrendingUp color="#3e9d60" size={26} />
+              </div>
+              <p>Relatórios</p>
             </div>
-            <p>Relatórios</p>
           </div>
           <div>
             <div>
               <div className="span">
                 <p>1600</p> vizualizações
+                <FiChevronRight />
               </div>
-              <p>de anúncios esse mês</p>
+              <span>de anúncios esse mês</span>
             </div>
           </div>
-          <FiChevronRight />
-        </div>
+        </Link>
       </div>
     </>
   );

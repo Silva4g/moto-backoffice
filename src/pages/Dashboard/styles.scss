@@ -1,109 +1,128 @@
 .menuDashboard {
-  flex: 1;
-  display: flex;
-  margin: 30px 30px 10px 30px;
-  align-content: space-between;
+    flex: 1;
+    display: flex;
+    margin: 1.5% 1.5% 0.5% 1.5%;
+    align-content: space-between;
+    flex-wrap: wrap;
+    animation: appearFromRight;
+}
+
+@keyframes appearFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .option {
-  flex: 1;
-  height: 200px;
-  background: #fff;
-  color: black;
-  border-radius: 10px;
-  padding: 30px 10px 30px 25px;
-  box-shadow: 5px 5px 3em #00000015;
-
-  & + div {
-    margin-left: 20px;
-  }
-
-  > div {
-    align-items: center;
-    justify-content: initial;
-    display: flex;
-    > div {
-      > p {
-        color: #ababab;
-        font-size: 12px;
-      }
+    flex: 1;
+    height: 200px;
+    background: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 10px 30px 25px;
+    box-shadow: 5px 5px 3em #00000015;
+    cursor: pointer;
+    text-decoration: none;
+    &+a {
+        margin-left: 20px;
     }
-  }
-
-  > svg {
-    float: right;
-    margin-bottom: -10%;
-  }
+    >div {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        >div {
+            flex: 1;
+            span {
+                font-size: 14px;
+                color: #7a8189;
+            }
+        }
+    }
 }
 
 .span {
-  margin: 10px 0 0 0;
-  display: flex;
-  align-items: baseline;
-  justify-content: initial;
-
-  > p {
-    margin: 0;
-    margin-right: 10px;
-    font-size: 30px;
-    font-weight: 600;
-  }
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-weight: 500;
+    p {
+        margin: 0;
+        margin-right: 10px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    svg {
+        margin-left: auto;
+    }
 }
 
 .icon {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background: #eef8f4;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    div {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background: #eef8f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: none !important;
+    }
+    >p {
+        color: black;
+        font-size: 16px;
+        margin-left: 18px;
+        font-weight: 600;
+    }
 }
 
 .profille {
-  margin: 10px 30px 10px 30px;
-  display: flex;
-  height: 250px;
-  align-content: space-between;
+    margin: 0.5% 1.5% 0.5% 1.5%;
+    display: flex;
+    height: 250px;
+    align-content: space-between;
 }
 
 .perfil {
-  background: #fff;
-  display: flex;
-  flex: 0.3;
-  border-radius: 10px;
-  flex-direction: column;
-  margin-right: 50px;
-  box-shadow: 5px 5px 3em #00000015;
-  align-items: center;
-  justify-content: center;
-
-  > div {
-    padding: 10px;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    background: #ccc;
-    margin-bottom: 10px;
-
+    background: #fff;
     display: flex;
+    flex: 1;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-right: 20px;
+    box-shadow: 5px 5px 3em #00000015;
     align-items: center;
     justify-content: center;
-  }
-  > p {
-    color: black;
-    font-weight: 500;
-  }
+    >div {
+        padding: 10px;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        background: #dcdcdc;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    >p {
+        color: black;
+        font-weight: 500;
+    }
 }
 
 .banner {
-  background: #ccc;
-  border-radius: 10px;
-  flex: 1;
-  box-shadow: 5px 5px 3em #00000015;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background: #dcdcdc;
+    border-radius: 10px;
+    flex: 3.15;
+    box-shadow: 5px 5px 3em #00000015;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

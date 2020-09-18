@@ -1,14 +1,4 @@
 .content {
-<<<<<<< HEAD
-  flex: 1;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: -40px;
-  border-top: 1px solid #c6c6c6;
-  overflow: auto;
-=======
     flex: 1;
     color: black;
     display: flex;
@@ -17,7 +7,6 @@
     margin: -40px;
     border-top: 1px solid #c6c6c6;
     overflow: auto;
->>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
 }
 
 .header {
@@ -83,6 +72,7 @@
             padding: 20px 25px;
             font-size: 11px;
             color: #fff;
+            min-width: 26vh;
         }
     }
     tbody {
@@ -104,178 +94,23 @@
     padding: 16px 0px 26px 10px;
     max-width: 400px;
     input {
-<<<<<<< HEAD
-      margin-right: 7px;
-      width: 18px;
-      height: 18px;
-=======
         margin-right: 7px;
-        width: 27px;
-        height: 27px;
+        width: 33px;
+        height: 33px;
     }
     >div {
         display: flex;
         flex-direction: column;
         border-right: 1px solid #d4d4d4;
-        height: 119px;
         div {
             display: flex;
             flex-wrap: wrap;
             width: fit-content;
             align-items: center;
         }
->>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
     }
 }
 
-<<<<<<< HEAD
-.table {
-  margin: 0 29px 0 32px;
-  flex: 1;
-  border-spacing: 0;
-  thead {
-    background-color: #3a4550;
-    td {
-      border: none;
-      padding: 20px 25px;
-      font-size: 11px;
-      color: #fff;
-    }
-  }
-  tbody {
-    background-color: #fff;
-    tr {
-      &:hover {
-        background-color: #f8f8f8;
-      }
-      td {
-        border-bottom: 1px solid #d4d4d4;
-      }
-    }
-  }
-}
-
-.indexmoto {
-  display: flex;
-  align-items: center;
-  padding: 16px 0px 26px 10px;
-  max-width: 400px;
-
-  input {
-    margin-right: 7px;
-    width: 27px;
-    height: 27px;
-  }
-
-  > div {
-    display: flex;
-    flex-direction: column;
-    border-right: 1px solid #d4d4d4;
-    height: 119px;
-
-    div {
-      display: flex;
-      flex-wrap: wrap;
-      width: fit-content;
-      align-items: center;
-    }
-  }
-}
-
-.informations {
-  font-size: 15px;
-  color: #7a8189;
-  margin: 9px 13px;
-
-  &:first-child {
-    display: flex;
-    font-weight: 500;
-  }
-
-  > p {
-    font-weight: bold;
-    color: #0a0a0a;
-  }
-}
-
-.textbackground {
-  background-color: #efefef;
-  padding: 5px 10px;
-  border-radius: 4px;
-}
-
-.price {
-  height: 119px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-right: 1px solid #d4d4d4;
-  padding: 0 32px;
-}
-
-.engagement {
-  display: flex;
-  padding: 0 20px 0 16px;
-  height: 119px;
-  align-items: center;
-  justify-content: center;
-  border-right: 1px solid #d4d4d4;
-
-  > div {
-    font-size: 16px;
-    margin-left: 12px;
-    width: min-content;
-
-    &:first-child {
-      font-size: 12px;
-      color: #7a8189;
-      margin-left: 0px;
-    }
-  }
-}
-
-.bestoffert {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  height: 119px;
-  padding: 0 15px;
-  border-right: 1px solid #d4d4d4;
-
-  > span {
-    width: max-content;
-    font-size: 13px;
-    color: #7a8189;
-
-    &:first-child {
-      color: #1b6bc7;
-      font-size: 16px;
-      margin-bottom: 12px;
-    }
-  }
-}
-
-.buttons {
-  display: flex;
-  padding: 0 0 0 20px;
-  button {
-    padding: 11px;
-    background: none;
-    font-size: 13px;
-    border: none;
-    color: #7a8189;
-    border-radius: 4px;
-    display: flex;
-
-    &:first-child {
-      color: #0a0a0a;
-      border: 1px solid #0a0a0a;
-    }
-
-    svg {
-      margin-right: 5px;
-=======
 .informations {
     font-size: 15px;
     color: #7a8189;
@@ -302,7 +137,7 @@
     align-items: center;
     justify-content: center;
     border-right: 1px solid #d4d4d4;
-    padding: 0 32px;
+    padding: 0 16px;
 }
 
 .engagement {
@@ -341,27 +176,5 @@
             font-size: 16px;
             margin-bottom: 12px;
         }
-    }
-}
-
-.buttons {
-    display: flex;
-    padding: 0 0 0 20px;
-    button {
-        padding: 11px;
-        background: none;
-        font-size: 13px;
-        border: none;
-        color: #7a8189;
-        border-radius: 4px;
-        display: flex;
-        &:first-child {
-            color: #0a0a0a;
-            border: 1px solid #0a0a0a;
-        }
-        svg {
-            margin-right: 5px;
-        }
->>>>>>> 9707ed649832fa5ef83155bcfcbac2b939f02214
     }
 }
