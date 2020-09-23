@@ -11,17 +11,6 @@ export const Container = styled.div`
     'a c';
 `;
 
-// const appearFromRight = keyframes`
-// from {
-//   opacity: 0;
-//   transform: translateX(50px);
-// }
-// to {
-//   opacity: 1;
-//   transform: translateX(0px);
-// }
-// `;
-
 export const Content = styled.div`
   flex: 1;
   grid-area: c;

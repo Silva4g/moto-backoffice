@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.scss';
 
-import { FaBullhorn, FaMotorcycle } from 'react-icons/fa';
+import { FaBullhorn, FaMotorcycle, FaEdit } from 'react-icons/fa';
 import { FiChevronRight, FiCamera } from 'react-icons/fi';
 import { BiCommentDetail, BiTrendingUp } from 'react-icons/bi';
 
@@ -13,7 +13,20 @@ const Dashboard: React.FC = () => {
       <div className="profille">
         <div className="perfil">
           <div>
-            <FiCamera size={30} color="#b8b8b8" />
+            <div>
+              <img
+                src="https://i.pinimg.com/originals/94/63/42/9463423e8895383dea54f1754e4a79c2.png"
+                alt=""
+                style={{
+                  // flex: 'none',
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '50%',
+                }}
+              />
+            </div>
+            {/* <FiCamera size={30} color="#b8b8b8" className="camera" /> */}
+            <FaEdit size={30} color="#b8b8b8" className="edit" />
           </div>
           <p>Nome da Loja</p>
         </div>

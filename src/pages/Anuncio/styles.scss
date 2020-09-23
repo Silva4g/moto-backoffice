@@ -7,6 +7,7 @@
     margin: -40px;
     border-top: 1px solid #c6c6c6;
     overflow: auto;
+    animation: appearFromRight 0.5s;
 }
 
 .header {
@@ -72,7 +73,9 @@
             padding: 20px 25px;
             font-size: 11px;
             color: #fff;
-            min-width: 26vh;
+            &:first-child {
+                width: 410px;
+            }
         }
     }
     tbody {

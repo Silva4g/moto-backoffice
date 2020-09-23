@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useCallback } from 'react';
 
 import './styles.scss';
 
@@ -90,8 +90,8 @@ const Estoque: React.FC = () => {
             </td>
             <td>
               <div className="bestoffert2">
-                <span>Publicado</span>
-                <span>
+                <span ref={textState}>Publicado</span>
+                <span onClick={handleTextState}>
                   <LinkOffIcon fontSize="small" />
                   desativar anúncio
                 </span>
