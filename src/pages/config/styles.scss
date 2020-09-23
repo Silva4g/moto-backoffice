@@ -1,0 +1,127 @@
+.contentConfig {
+  color: #b4b4b4;
+  background-color: #ffffffff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+
+  > button {
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 60px;
+    background-color: #1a9c60;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+}
+
+.data {
+  border-top: 1px solid #bebebe;
+  padding: 43px 300px 43px 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  > form {
+    width: 100%;
+    display: flex;
+    margin-bottom: 27px;
+
+    > div {
+      display: flex;
+      align-items: center;
+
+      & + div {
+        margin-left: 24px;
+      }
+
+      input {
+        width: 24px;
+        height: 24px;
+      }
+
+      > p {
+        margin-left: 8px;
+        color: #303030;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  > button {
+    background-color: #faefef;
+    border-radius: 4px;
+    color: #bb1c1c;
+    border: none;
+    margin-right: 30px;
+    padding: 10px 9px;
+  }
+
+  > p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #0f0f0f;
+    width: 100%;
+  }
+
+  input[type='text'] {
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 16px;
+    letter-spacing: 0.64px;
+    height: 46px;
+    margin-top: 10px;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    & + div {
+      margin-left: 25px;
+    }
+    &:nth-child(8) {
+      margin-left: 0;
+    }
+    > span {
+      color: black;
+      font-size: 18px;
+    }
+  }
+}
+
+.checkboxinput {
+  display: flex !important;
+  flex-direction: row !important;
+  margin: 0 !important;
+  align-items: center !important;
+
+  input {
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+  }
+
+  > span {
+    margin-left: 10px;
+    & + input {
+      margin-left: 15px;
+    }
+  }
+}
+
+.otherbutton {
+  margin: 0 0px 0 10px;
+  border: 1px solid #1b6bc7 !important;
+  background-color: transparent !important;
+  color: #1b6bc7 !important;
+  padding: 10px 20px !important;
+}
